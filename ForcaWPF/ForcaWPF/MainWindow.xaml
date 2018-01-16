@@ -1,0 +1,19 @@
+﻿<Window x:Class="ForcaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForcaWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btn_cadastrar" Content="Cadastrar Novo Jogador" HorizontalAlignment="Left" Margin="174,253,0,0" VerticalAlignment="Top" Width="157" Click="btn_cadastrar_Click"/>
+        <Label x:Name="lbl_titulo" Content="FORCA" HorizontalAlignment="Left" Margin="212,21,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Button x:Name="btn_jogar" Content="Jogar!" HorizontalAlignment="Left" Margin="174,96,0,0" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="txt_nome" HorizontalAlignment="Left" Height="23" Margin="174,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontStyle="Italic" TextDecorations="{x:Null}" TextChanged="txt_nome_TextChanged"/>
+        <Label x:Name="lbl_nome" Content="Nome" HorizontalAlignment="Left" Margin="173,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_senha" Content="Senha" HorizontalAlignment="Left" Margin="173,191,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="txt_senha" HorizontalAlignment="Left" Margin="174,217,0,0" VerticalAlignment="Top" Width="157" Height="23" TextInput="txt_senha_TextInput"/>
+
+    </Grid>
+</Window>

@@ -12,5 +12,8 @@ namespace TestesForca
         public string Senha { get; set; }
         public string Chute { get; set; }
         public int Pontuacao { get; set; }
+
+
+
     }
 }

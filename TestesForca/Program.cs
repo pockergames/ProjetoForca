@@ -10,9 +10,11 @@ namespace TestesForca
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o número de Usuários (Máximo de 30 Usuários)");
-            Forca.CadastrarUsuarios(int.Parse(Console.ReadLine()));
-            Forca.MostrarUsuarios();
+            Forca.Menu();
+            Forca.CadastrarJogadores(int.Parse(Console.ReadLine()));
+            //Forca.MostrarJogadores();
+            
+            
         }
     }
 }
