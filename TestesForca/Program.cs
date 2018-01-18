@@ -11,11 +11,14 @@ namespace TestesForca
         static void Main(string[] args)
         {
             Forca.Menu();
-            Forca.CadastrarJogadores(int.Parse(Console.ReadLine()));
-            //Forca.MostrarJogadores();
-            
-            
-            
+            int numeroDeJogadores = int.Parse(Console.ReadLine());//Numero de jogadores da PARTIDA
+            for (int i = 0; i < numeroDeJogadores; i++)
+            {
+                Jogador.CadastrarJogador(i);
+            }
+            //Jogador.MostrarJogadores();
+            Forca.MostrarPalavra();
+
         }
     }
 }
