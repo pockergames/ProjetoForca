@@ -14,6 +14,10 @@ namespace TestesForca
         public static int NumeroDeJogadores { get; set; }//Numero de jogadores da PARTIDA
 
 
+        public static void MostrarPalavra()
+        {
+
+        }
         private static Jogador[] jogadores = new Jogador[50];//Cinquenta é um n° razoável. Poderia ser maior, porém não pode ser uma variável.
 
         public static void Menu() //Chama a tela de ínicio do jogo
