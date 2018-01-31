@@ -9,7 +9,7 @@ namespace TestesForca
 {
     class Forca
     {
-        public string Resposta { get; set; }
+        public static string Resposta { get; set; }
 
         public static void Menu() //Chama a tela de ínicio do jogo
         {
@@ -26,7 +26,8 @@ namespace TestesForca
         }
         public static void MostrarPalavra()
         {
-            string palavra = "", tema =  "";
+            string tema =  "";
+            char[] palavraEscondida = new char[Resposta.Length];
             SqlCommand cmd = new SqlCommand()
             {
                 Connection = new SqlConnection("Data Source=localhost; Initial Catalog=Forca; Integrated Security=SSPI"),
@@ -36,11 +37,19 @@ namespace TestesForca
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                palavra = (reader.GetString(0));
+                Resposta = (reader.GetString(0));
                 tema = (reader.GetString(1));
             }
+            
+            for(int i = 0; i < Resposta.Length; i++)
+            {
+                palavraEscondida[i] = '_';
+            }
+            Console.WriteLine(palavraEscondida);
+
             cmd.Connection.Close();
-            Console.WriteLine(palavra + "\n" + tema);
+            Console.WriteLine("Tema: {0}\n ", tema);
+
         }
 
 

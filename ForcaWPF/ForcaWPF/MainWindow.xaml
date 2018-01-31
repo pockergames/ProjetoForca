@@ -5,15 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ForcaWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="673.517" Width="1090.775">
     <Grid>
-        <Button x:Name="btn_cadastrar" Content="Cadastrar Novo Jogador" HorizontalAlignment="Left" Margin="174,253,0,0" VerticalAlignment="Top" Width="157" Click="btn_cadastrar_Click"/>
-        <Label x:Name="lbl_titulo" Content="FORCA" HorizontalAlignment="Left" Margin="212,21,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
-        <Button x:Name="btn_jogar" Content="Jogar!" HorizontalAlignment="Left" Margin="174,96,0,0" VerticalAlignment="Top" Width="157"/>
-        <TextBox x:Name="txt_nome" HorizontalAlignment="Left" Height="23" Margin="174,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontStyle="Italic" TextDecorations="{x:Null}" TextChanged="txt_nome_TextChanged"/>
-        <Label x:Name="lbl_nome" Content="Nome" HorizontalAlignment="Left" Margin="173,137,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_senha" Content="Senha" HorizontalAlignment="Left" Margin="173,191,0,0" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="txt_senha" HorizontalAlignment="Left" Margin="174,217,0,0" VerticalAlignment="Top" Width="157" Height="23" TextInput="txt_senha_TextInput"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="124*"/>
+            <ColumnDefinition Width="147*"/>
+        </Grid.ColumnDefinitions>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="643" VerticalAlignment="Top" Width="221"/>
+        <TextBox x:Name="txt_nome" HorizontalAlignment="Left" Height="22" Margin="45,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <Button x:Name="btn_addJogador" Content="Adicionar Jogador" HorizontalAlignment="Left" Margin="45,91,0,0" VerticalAlignment="Top" Width="120" Height="37" Click="btn_addJogador_Click"/>
+        <Button x:Name="btn_novaPartida" Content="Nova Partida" HorizontalAlignment="Left" Margin="45,194,0,0" VerticalAlignment="Top" Width="120" Height="38" Click="btn_novaPartida_Click" />
+        <Label Content="Nome do Jogador&#xD;&#xA;" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" Height="28"/>
+        <ScrollViewer x:Name="scroll_pontuacao" HorizontalAlignment="Left" Height="233" Margin="10,353,0,0" VerticalAlignment="Top" Width="201" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
+        <Label x:Name="lbl_tema" Content="" HorizontalAlignment="Center" Margin="404,38,125,0" VerticalAlignment="Top" FontSize="36" Width="554" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_palavra" Content="" HorizontalAlignment="Center" Margin="404,149,125,0" VerticalAlignment="Top" Width="554" FontSize="48" Grid.ColumnSpan="2"/>
+        <Rectangle Fill="#FFF0F0F0" HorizontalAlignment="Left" Height="180" Margin="221,463,0,0" VerticalAlignment="Top" Width="862" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txt_chute" HorizontalAlignment="Left" Height="25" Margin="404,497,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="433" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_escrevaSeuChuteAqui" Content="Escreva seu chute aqui:" HorizontalAlignment="Left" Height="38" Margin="226,492,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="btn_chute" Content="Chuta!" Grid.Column="1" HorizontalAlignment="Left" Margin="356,497,0,0" VerticalAlignment="Top" Width="106" Height="25" Click="btn_chute_Click"/>
+        <Label x:Name="lbl_jogadorAtual" Content="" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" Width="182" FontWeight="Bold"/>
 
     </Grid>
 </Window>

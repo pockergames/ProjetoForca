@@ -8,8 +8,8 @@ namespace ForcaWPF
 {
     class Jogador
     {
-        public string Nome { get; set; }
-        public string Senha { get; set; }
-        public int Pontuacao { get; set; }
+        public string Nome { get; set; }//Nome do jogador
+        public int Pontuacao { get; set; }//Pontuacao do jogador
     }
+
 }

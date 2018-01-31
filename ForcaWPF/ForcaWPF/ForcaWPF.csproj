@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{423BAE60-86D7-443A-918D-8D6774710A1E}</ProjectGuid>
+    <ProjectGuid>{0B6A1D68-BA79-412D-BE55-0E74588595D2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ForcaWPF</RootNamespace>
     <AssemblyName>ForcaWPF</AssemblyName>
@@ -62,6 +62,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Forca.cs" />
     <Compile Include="Jogador.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
