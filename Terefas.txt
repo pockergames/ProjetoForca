@@ -1,0 +1,15 @@
+-Sockets.
+
+-"Quitar" jogador.
+
+-Tema aleatório e do banco (comboBox).
+
+-Natháliês.
+
+-Nome da empresa.
+
+-Pontuação.
+
+-Várias janelas.
+
+-Design.
