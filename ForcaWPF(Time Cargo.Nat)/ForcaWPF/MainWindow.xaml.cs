@@ -27,7 +27,9 @@ namespace ForcaWPF
 
         private static Jogador[] jogadores = new Jogador[maxDeJogadores];//Array que vai alocar os jogadores da partida
 
-        Jogador JogadorAtual = new Jogador(); //Este vai ser o jogador que receberá os pontos quando uma palavra ou letra estiver certa e vai ter o nome marcado
+        //Jogador JogadorAtual = new Jogador(); //Este vai ser o jogador que receberá os pontos quando uma palavra ou letra estiver certa e vai ter o nome marcado
+
+        List<Jogador> jogador = new List<Jogador>();
 
         public MainWindow()
         {
@@ -40,15 +42,21 @@ namespace ForcaWPF
                 txt_nome.Focus();    //mude o foco para ela
             else                     //Se não,
             {
-                jogadores[nJog] = new Jogador(); //cria uma instância do objeto jogador dentro do Array jogadores na posicao nJog(que tem como primeiro valor, 0)
+                //jogadores[nJog] = new Jogador(); //cria uma instância do objeto jogador dentro do Array jogadores na posicao nJog(que tem como primeiro valor, 0)
 
-                jogadores[nJog].Nome = txt_nome.Text; //Atribui ao Nome do jogador o texto digitado na textbox acima
+                jogador.Add(new Jogador());
 
-                jogadores[nJog].Pontuacao = pontuacaoInicial; //Inicializa a pontuação do jogador que está sendo instanciado com a pontuacao inicial
+                //jogadores[nJog].Nome = txt_nome.Text; //Atribui ao Nome do jogador o texto digitado na textbox acima
+
+                jogador[nJog].Nome = txt_nome.Text;
+
+                //jogadores[nJog].Pontuacao = pontuacaoInicial; //Inicializa a pontuação do jogador que está sendo instanciado com a pontuacao inicial
+
+                jogador[nJog].Pontuacao = pontuacaoInicial;
 
                 txt_nome.Clear();//Limpa a textBox que recebe o nome
 
-                scroll_pontuacao.Content += String.Format("{0} : {1} pontos\n\n", jogadores[nJog].Nome, jogadores[nJog].Pontuacao);//Escreve o nome do Jogador e sua pontuacao na caixa cinzenta com scroll abaixo do botão "Nova Partida"
+                scroll_pontuacao.Content += String.Format("{0} : {1} pontos\n\n", jogador[nJog].Nome, jogador[nJog].Pontuacao);//Escreve o nome do Jogador e sua pontuacao na caixa cinzenta com scroll abaixo do botão "Nova Partida"
 
                 nJog++;//Incremente o numero de jogadores. Isto serve para que, na próxima vez que o usuário pressionar o botão "Adicionar Jogador", o array de jogadores mude de posição 
             }           
@@ -56,7 +64,7 @@ namespace ForcaWPF
 
         private void btn_novaPartida_Click(object sender, RoutedEventArgs e)//Inicia uma nova partida
         {
-            lbl_palavra.Content = "";//Inicializa o label que mostra a palavra da partida(não é muito necessário, pois ele provavelmente faz isso sozinho)
+            txt_palavra.Text = "";//Inicializa o label que mostra a palavra da partida(não é muito necessário, pois ele provavelmente faz isso sozinho)
             
 
             if (nJog == 0)//Se não houver ao menos 1 jogador cadastrado,
@@ -66,7 +74,7 @@ namespace ForcaWPF
                 Forca.PegarPalavraAleatoria(); //Executa um método da classe Forca que busca, do banco de dados, um palavra aleatória e seu respectivo tema
                 for (int i = 0; i < Forca.Resposta.Length; i++)
                 {
-                    lbl_palavra.Content += "- ";// O label exibe o caractere "_" no mesmo n° de letras da palavra, como se tivesse escondendo as letras
+                    txt_palavra.Text += "- ";// O label exibe o caractere "-  no mesmo n° de letras da palavra, como se tivesse escondendo as letras
                 }
                 lbl_tema.Content = Forca.Tema; //O label menor, tema, recebe o tema da respectiva palavra
                 //MessageBox.Show(Forca.Resposta); //Uma MessageBox que, ao começar uma nova partida, diz a resposta.
@@ -80,7 +88,7 @@ namespace ForcaWPF
         {
             for(int i = 0; i < nJog; i++)
             {
-                jogadores[i].Pontuacao = 0;
+                jogador[i].Pontuacao = 0;
             }
             AtualizarPlacar();
         }
@@ -89,24 +97,14 @@ namespace ForcaWPF
         {
             
             // se a pessoa chutar a palavra inteira
-            if (txt_chute.Text.Length > 1)
+            if (AcertouPalavra() && txt_palavra.Text.ToString() != Forca.Resposta)
             {
-                if (txt_chute.Text == Forca.Resposta)
-                {
-                    int qtdFaltam = Forca.Resposta.Length;
-                    for (int i=0; i< lbl_palavra.Content.ToString().Length; i+=2)
-                    {
-                        if (lbl_palavra.Content.ToString()[i] == '-')
-                            qtdFaltam--;
-                    }
-                    jogadores[vez].Pontuacao += txt_chute.Text.Length * pontuacaoInicial;
-                    lbl_palavra.Content = Forca.Resposta;
-                    jogadores[vez].Pontuacao += Forca.PONTUACAO_POR_LETRA;                    
-                }
+                PontuacaoPalavra();
+                txt_palavra.Text = Forca.Resposta;
             }
 
             // quando chutar uma só letra
-            else if (txt_chute.Text.Length == 1)
+            else if (AcertouLetra())
             {
                 // A palavra Resposta transformada em array de chars. Ex: ['c', 'a', 'r', 'b', 'o', 'n', 'o']
                 char[] respostaArray = Forca.Resposta.ToCharArray();
@@ -115,7 +113,7 @@ namespace ForcaWPF
                 char chute = txt_chute.Text[0];
 
                 // O resultado (ainda em array) que vai ser mostrado na tela. Ex: ['c', '-', '-', 'b', '-', '-', '-']
-                char[] mostrarArray = lbl_palavra.Content.ToString().ToCharArray();
+                char[] mostrarArray = txt_palavra.Text.ToString().ToCharArray();
 
                 // Quantidade de vezes que a letra que o jogador disse aparece. Ex: carbono, se o jogador falar 'o' -> qtdAcertos = 2
                 int qtdAcertos = 0;
@@ -123,7 +121,7 @@ namespace ForcaWPF
                 // Substitui '-' pela letra acertada e soma a quantidade de letras acertadas
                 for (int i = 0; i < Forca.Resposta.Length; i++)
                 {
-                    if (chute == respostaArray[i])
+                    if (chute == respostaArray[i] || chute == Char.ToLower(respostaArray[i]) && chute != mostrarArray[i * 2])
                     {
                         mostrarArray[i * 2] = chute;
                         qtdAcertos++;
@@ -131,7 +129,7 @@ namespace ForcaWPF
                 }
 
                 // Soma à pontuação 
-                jogadores[vez].Pontuacao += Forca.PONTUACAO_POR_LETRA * qtdAcertos;
+                jogador[vez].Pontuacao += Forca.PONTUACAO_POR_LETRA * qtdAcertos;
 
                 // String que aparece na tela
                 string mostrar = "";
@@ -141,7 +139,7 @@ namespace ForcaWPF
                     mostrar += letra;
 
                 // alterando o valor do label 
-                lbl_palavra.Content = mostrar;
+                txt_palavra.Text = mostrar;
             }
 
             else 
@@ -164,10 +162,10 @@ namespace ForcaWPF
         private void AtualizarPlacar()
         {
             string resultado = "";
-            for (int i=0; i<nJog; i++)
+            for (int i = 0; i < nJog; i++)
             {
-                Jogador jogador = jogadores[i];
-                string linha = String.Format("{0} : {1} pontos\n\n", jogador.Nome, jogador.Pontuacao);
+                Jogador jogadorAtual = jogador[i];
+                string linha = String.Format("{0} : {1} pontos\n\n", jogadorAtual.Nome, jogadorAtual.Pontuacao);
                 resultado += linha;
             }
             scroll_pontuacao.Content = resultado;
@@ -195,12 +193,44 @@ namespace ForcaWPF
             else
                 vez++;//Passa para o próximo jogador
         }
-        private void MarcarJogador()//Este método representa qualquer evento que indique o jogador atual
-            //Neste caso, ele escreve num label em cima do placar o nome do jogador atual.
+        private void MarcarJogador()//Este método representa qualquer evento que indique o jogador atual.
         {
-            lbl_jogadorAtual.Content = String.Format("Vez de {0}!", jogadores[vez].Nome);//Escreve no label acima do placar o texto "Vez do 'Jogador Atual'!"
+            lbl_jogadorAtual.Content = String.Format("Vez de {0}!", jogador[vez].Nome);//Escreve no label acima do placar o texto "Vez do 'Jogador Atual'!"
         }
-        
+        private bool AcertouPalavra()
+        {
+            if (txt_chute.Text == Forca.Resposta && txt_chute.Text.Length > 1 || txt_chute.Text == Forca.Resposta.ToLower())
+                return true;
+            else
+                return false;
+        }
+
+        private void btn_sair_Click(object sender, RoutedEventArgs e)
+        {
+            jogador.RemoveAt(vez);
+            nJog--;
+            vez++;
+            MarcarJogador();
+            AtualizarPlacar();
+        }
+
+        private void PontuacaoPalavra()
+        {
+            int qtdFaltam = Forca.Resposta.Length;
+            for (int i = 0; i < txt_palavra.Text.ToString().Length; i += 2)
+            {
+                if (txt_palavra.Text.ToString()[i] != '-')
+                    qtdFaltam--;
+            }
+            jogador[vez].Pontuacao += Forca.PONTUACAO_POR_LETRA * qtdFaltam;
+        }
+        private bool AcertouLetra()
+        {
+            if (txt_chute.Text.Length == 1)
+                return true;
+            else
+                return false;
+        }
         
         /*private void MostrarLetra()//"Desvenda" uma letra da resposta (Feito por Carlos Miranda)
         {

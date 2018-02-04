@@ -18,12 +18,13 @@
         <Label Content="Nome do Jogador&#xD;&#xA;" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" Height="28"/>
         <ScrollViewer x:Name="scroll_pontuacao" HorizontalAlignment="Left" Height="233" Margin="10,353,0,0" VerticalAlignment="Top" Width="201" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
         <Label x:Name="lbl_tema" Content="" HorizontalAlignment="Center" Margin="404,38,125,0" VerticalAlignment="Top" FontSize="36" Width="554" Grid.ColumnSpan="2"/>
-        <Label x:Name="lbl_palavra" Content="" HorizontalAlignment="Center" Margin="306,124,71,0" VerticalAlignment="Top" Width="706" FontSize="48" Grid.ColumnSpan="2" Height="224"/>
         <Rectangle Fill="#FFF0F0F0" HorizontalAlignment="Left" Height="180" Margin="221,463,0,0" VerticalAlignment="Top" Width="862" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txt_chute" HorizontalAlignment="Left" Height="25" Margin="404,497,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="433" Grid.ColumnSpan="2" KeyDown="txt_chute_KeyDown"/>
         <Label x:Name="lbl_escrevaSeuChuteAqui" Content="Escreva seu chute aqui:" HorizontalAlignment="Left" Height="38" Margin="226,492,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="btn_chute" Content="Chuta!" Grid.Column="1" HorizontalAlignment="Left" Margin="356,497,0,0" VerticalAlignment="Top" Width="106" Height="25" Click="btn_chute_Click"/>
         <Label x:Name="lbl_jogadorAtual" Content="" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" Width="182" FontWeight="Bold"/>
+        <TextBlock x:Name="txt_palavra" HorizontalAlignment="Left" Margin="282,194,0,0" TextWrapping="Wrap" Text="O jogo já vai começar!" VerticalAlignment="Top" FontSize="72" Grid.ColumnSpan="2" Width="728" TextAlignment="Center"/>
+        <Button x:Name="btn_sair" Content="Sair" HorizontalAlignment="Left" Height="20" Margin="59,606,0,0" VerticalAlignment="Top" Width="76" Click="btn_sair_Click"/>
 
     </Grid>
 </Window>

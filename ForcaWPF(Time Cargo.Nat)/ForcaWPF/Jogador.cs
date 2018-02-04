@@ -10,8 +10,6 @@ namespace ForcaWPF
     {
         public string Nome { get; set; }//Nome do jogador
         public int Pontuacao { get; set; }//Pontuacao do jogador
-        NomeDaClasse nomeDaIntancia = new NomeDaClasse();
-        Jogador CarlosMIranda = new Jogador();
     }
 
 }
