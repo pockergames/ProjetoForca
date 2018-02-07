@@ -1,0 +1,7 @@
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\bin\Debug\CadastroDeTemasDeveloperApp.exe.config
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\bin\Debug\CadastroDeTemasDeveloperApp.exe
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\bin\Debug\CadastroDeTemasDeveloperApp.pdb
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\obj\Debug\CadastroDeTemasDeveloperApp.csprojResolveAssemblyReference.cache
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\obj\Debug\CadastroDeTemasDeveloperApp.csproj.CoreCompileInputs.cache
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\obj\Debug\CadastroDeTemasDeveloperApp.exe
+C:\Users\Baiano\Documents\ProjetoForca\CadastroDeTemasDeveloperApp\CadastroDeTemasDeveloperApp\obj\Debug\CadastroDeTemasDeveloperApp.pdb

@@ -1,0 +1,14 @@
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\bin\Debug\TestesForca.exe.config
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\bin\Debug\TestesForca.exe
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\bin\Debug\TestesForca.pdb
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\obj\Debug\TestesForca.csprojResolveAssemblyReference.cache
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\obj\Debug\TestesForca.csproj.CoreCompileInputs.cache
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\obj\Debug\TestesForca.exe
+C:\Users\Baiano\source\repos\TestesForca\TestesForca\obj\Debug\TestesForca.pdb
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\bin\Debug\TestesForca.exe.config
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\bin\Debug\TestesForca.exe
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\bin\Debug\TestesForca.pdb
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\obj\Debug\TestesForca.csprojResolveAssemblyReference.cache
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\obj\Debug\TestesForca.csproj.CoreCompileInputs.cache
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\obj\Debug\TestesForca.exe
+C:\Users\Baiano\Documents\ProjetoForca\TestesForca\obj\Debug\TestesForca.pdb

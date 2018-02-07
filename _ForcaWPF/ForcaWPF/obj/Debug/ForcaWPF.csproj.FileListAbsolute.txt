@@ -1,0 +1,100 @@
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.CoreCompileInputs.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\alunoct\Documents\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+D:\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+D:\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+D:\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+D:\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\alunoct\Desktop\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\alunoct\Desktop\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.exe
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\bin\Debug\ForcaWPF.pdb
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.g.cs
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\App.g.cs
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\MainWindow.baml
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.csproj.CoreCompileInputs.cache
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.exe
+E:\ProjetoForca\_cacetinho suado\ProjetoForca\ForcaWPF\ForcaWPF\obj\Debug\ForcaWPF.pdb

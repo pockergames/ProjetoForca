@@ -1,0 +1,15 @@
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\bin\Debug\ForcaWPF.exe.config
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\bin\Debug\ForcaWPF.exe
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\bin\Debug\ForcaWPF.pdb
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.csprojResolveAssemblyReference.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\App.g.cs
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF_MarkupCompile.lref
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\MainWindow.baml
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.g.resources
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.Properties.Resources.resources
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.csproj.GenerateResource.Cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.csproj.CoreCompileInputs.cache
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.exe
+C:\Users\Baiano\Documents\ProjetoForca\ForcaWPF(Time Cargo.Nat)\ForcaWPF\obj\Debug\ForcaWPF.pdb
